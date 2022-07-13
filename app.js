@@ -15,23 +15,22 @@ let result = myFunction(5,12)
 
 console.log(result);
 
-// I have made a function. made a variable called `intro`, 
+// I have made a function. I then made a variable called `intro`, 
 // I then made a variable called `length` that will store the result of the length of my intro.
 // I have told my code that if the result stored in `length` is greater than 10
-// Print out `true` un the console. Otherwise show the anwser `false`
-// Here my function ends and gives me back the result.
-  // My function is called once ran the results are shown in my console.
-  
+// Return`true` in the console. Otherwise show the anwser `false`
+// Here my function ends.
+  // My function is called, and ran.
+
 function myFunction2(){
 
-    let intro = "Hello World!";
+    let intro = "Hello ";
     let length = intro.length;
   
 if(length > 10){
-    console.log(true)
-} else{console.log(false)}
-
-    return length
+    return true
+    
+} else{return false }
     
 }
 
