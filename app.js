@@ -24,7 +24,7 @@ console.log(result);
 
 function myFunction2(){
 
-    let intro = "Hello ";
+    let intro = "Hello World! ";
     let length = intro.length;
   
 if(length > 10){
@@ -39,8 +39,35 @@ if(length > 10){
     console.log(here)
   
 
+// I make a variable called elements.
+// a make a variable that has the result of my function
+// I make a for loop that runs through all the strings in my element array
+// my if statement says if you find a string that starts with ph return it.
+// here isntead of putting the result into a variable I just return the element[counter]
 
+   
+    let element = [`earth`,`phoney`, `fire`, `water`, `air`]
 
+    let wow = myFunction3(element)
+
+        console.log(wow)
+
+     function myFunction3(element){
+        for(let counter = 0; counter < element.length; counter++){
+            if(element[counter].startsWith(`ph`)){
+                return element[counter];
+                
+               
+                
+                
+
+            }
+       
+        }
+        
+    }
+
+   
 
 
 
