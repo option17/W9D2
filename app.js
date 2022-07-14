@@ -43,7 +43,7 @@ if(length > 10){
 // a make a variable that has the result of my function
 // I make a for loop that runs through all the strings in my element array
 // my if statement says if you find a string that starts with ph return it.
-// here isntead of putting the result into a variable I just return the element[counter]
+// here I just return the element[counter]
 
    
     let element = [`earth`,`phoney`, `fire`, `water`, `air`]
@@ -51,6 +51,7 @@ if(length > 10){
     let wow = myFunction3(element)
 
         console.log(wow)
+       
 
      function myFunction3(element){
         for(let counter = 0; counter < element.length; counter++){
